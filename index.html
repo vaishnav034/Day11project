@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Signup</title>
+    <style>
+    .main-background {
+        background-color: #c5ebdf;
+        height: 100vh;
+        width: 100vw;
+    }
+    .signup_background {
+        background-color: white;
+        height: 80%;
+        width: 30%;
+       
+    }
+    .form-inline {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .signup-heading {
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        color: #3262a8;
+        text-align: center;
+
+    }
+    .forms_spaces {
+        margin-left: 25px;
+    }
+    .spaces{
+        margin-bottom: 30px;
+        width: 90%;
+        height: 32px;
+        border-radius: 5px;
+        border-width: 1px;
+
+    }
+    .button {
+        background-color: #429bf5;
+        border-radius: 5px;
+        height: 30px;
+        width: 90%;
+        font-size: 15px;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        border-width: 0px;
+    }
+    </style>
+</head>
+<body>
+    <!------SignUp page-->
+    <div class="main-background form-inline">
+        <div class="signup_background">
+            <h1 class="signup-heading">SIGNUP HERE!</h1>
+            <form class="forms_spaces">
+
+                <input type="text" id="first_name" class="spaces" placeholder="Username"> 
+
+                <input type="text" id="Email" placeholder="Email" class="spaces">  <br>
+        
+                <input type="number" id="phonenumber" placeholder="Phone Number" class="spaces"> <br>
+
+                <input type="password" id="password" placeholder="password" class="spaces">
+
+                <input type="password" id="password" placeholder="Confirm password" class="spaces">
+
+                <button type="submit" class="button">Submit</button>
+            </form>
+
+            <p style="text-align: center;">Already have an Account <a href="logined.html">login</a></p>
+        </div>
+        
+    </div>
+
+
+</body>
+</html>
